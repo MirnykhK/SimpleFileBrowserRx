@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">FileBrowserRx</string>
+    <string name="name_of_file">Name of file</string>
+    <string name="size_of_file">1000 MB</string>
+    <string name="date_modified">yyyy-MM-dd HH:mm:ss</string>
+    <string name="check_app_permission_first">Check app permission first!</string>
+
+    <string name="title_name_of_file">Name</string>
+    <string name="title_size_of_file">Size</string>
+    <string name="title_date_modified">Modified</string>
+
+    <string name="navigation_back"> &lt;... Back ...&gt; </string>
 </resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="32dp"
+    android:background="@color/folder_color">
+
+    <TextView
+        android:id="@+id/nameOFileView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="16dp"
+        android:textColor="@color/text_color"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/sizeOFileView"
+        app:layout_constraintHorizontal_weight="6"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/title_name_of_file" />
+
+    <TextView
+        android:id="@+id/sizeOFileView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:textColor="@color/text_color"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/modifiedtextView"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/nameOFileView"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/title_size_of_file" />
+
+    <TextView
+        android:id="@+id/modifiedtextView"
+        android:textColor="@color/text_color"
+        android:textStyle="bold"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="textEnd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toEndOf="@+id/sizeOFileView"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/title_date_modified" />
+
+</android.support.constraint.ConstraintLayout>
